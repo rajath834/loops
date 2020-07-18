@@ -1,0 +1,3 @@
+var groceries = [];
+var groceries = ["Milk", "Bannana", "Eggs"]
+groceries.push("Peanut Butter")
