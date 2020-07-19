@@ -1,4 +1,19 @@
-var groceries = [];
-var groceries = ["Milk", "Bannana", "Eggs"]
-groceries.push("Peanut Butter")
-console.log(groceries)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Create a new array called shoppingBasket, that will be a copy of the shoppingList array, and add some
+        new products into it.</h1>
+</head>
+<body>
+    <script src="day42.js"></script>
+    const shoppingList = ["milk","butter"];
+
+const shoppingBasket = [ ...shoppingList,"bread","cheese"];
+
+console.log(shoppingBasket);
+    
+</body>
+</html>
